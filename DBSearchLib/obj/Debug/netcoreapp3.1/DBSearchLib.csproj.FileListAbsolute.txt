@@ -1,0 +1,8 @@
+C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\bin\Debug\netcoreapp3.1\DBSearchLib.deps.json
+C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\bin\Debug\netcoreapp3.1\DBSearchLib.dll
+C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.csprojAssemblyReference.cache
+C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.AssemblyInfoInputs.cache
+C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.AssemblyInfo.cs
+C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\bin\Debug\netcoreapp3.1\DBSearchLib.pdb
+C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.dll
+C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.pdb
