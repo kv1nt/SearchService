@@ -6,3 +6,11 @@ C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\obj\Debug\netc
 C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\bin\Debug\netcoreapp3.1\DBSearchLib.pdb
 C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.dll
 C:\Users\vipalamarchuk\source\repos\TestSearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.pdb
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.csprojAssemblyReference.cache
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.AssemblyInfoInputs.cache
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.AssemblyInfo.cs
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.dll
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\DBSearchLib\obj\Debug\netcoreapp3.1\DBSearchLib.pdb
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\DBSearchLib\bin\Debug\netcoreapp3.1\DBSearchLib.deps.json
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\DBSearchLib\bin\Debug\netcoreapp3.1\DBSearchLib.dll
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\DBSearchLib\bin\Debug\netcoreapp3.1\DBSearchLib.pdb

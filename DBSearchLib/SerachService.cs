@@ -13,33 +13,30 @@ namespace DBSearchLib
         /// Search in Db
         /// </summary>
         /// <typeparam name="T">Model Data Transter</typeparam>
-        /// <param name="ps">Model Data Transter</param>
+        /// <param name="model">Model Data Transter</param>
         /// <param name="tableName">Database Table Name</param>
         /// <param name="connectionString">Database Connection string</param>
-        public void Search<T>(T ps, string tableName, string connectionString) where T : class
+        public IEnumerable<T> Search<T>(T model, string tableName, string connectionString) where T : class
         {
-            Type tModelType = ps.GetType();
+            Type tModelType = model.GetType();
             PropertyInfo[] propInfos1 = tModelType.GetProperties();
             var props = propInfos1;
             var selectQuery = new StringBuilder($"SELECT * FROM {tableName}");
             selectQuery.Append($" WHERE");
             string typeVariant = string.Empty;
-            var val = string.Empty;
-            decimal res = 0;
+            var list = new List<T>();
+
             foreach (var item in props)
             {
-                if(item.PropertyType.Name == "Decimal")
+                if (item.GetValue(model) != null)
                 {
-                  
-                }
-                if (item.GetValue(ps) != null)
-                {
-                    typeVariant = item.PropertyType.Name == "String" ? $" [{item.Name}] = '{item.GetValue(ps)}' AND" :
-                                $" [{item.Name}] = {item.GetValue(ps)} AND";
+                    typeVariant = item.PropertyType.Name == "String" || item.PropertyType.Name == "Nullable`1" ? 
+                                $" [{item.Name}] = '{item.GetValue(model)}' AND" :
+                                $" [{item.Name}] = { TypeConverter(item, model) } AND";
                     selectQuery.Append(typeVariant);
                 }
-
             }
+
             selectQuery.Remove(selectQuery.Length - 3, 3);
             Console.Write(selectQuery);
             using (var conn = new SqlConnection(connectionString))
@@ -51,22 +48,17 @@ namespace DBSearchLib
                     command.Connection = conn;
                     SqlDataAdapter adapter = new SqlDataAdapter(selectQuery.ToString(), conn);
                     DataSet ds = new DataSet();
-                    adapter.Fill(ds);
-                    SqlDataReader reader = command.ExecuteReader();
-                    //adapter.Fill(ds);
-
-                    while (reader.Read())
+                    adapter.Fill(ds, tableName);
+ 
+                    foreach (DataTable dt in ds.Tables)
                     {
-
-                        foreach (var item in props)
+                        foreach (DataRow row in dt.Rows)
                         {
-                            var name = item.Name;
-                            var val = reader[item.Name].ToString();
+                            T item = GetItem<T>(row);
+                            list.Add(item);
                         }
                     }
-
-
-
+                    return list;
                 }
                 catch (SqlException ex)
                 {
@@ -76,6 +68,55 @@ namespace DBSearchLib
                 {
                     conn.Close();
                 }
+        }
+
+        private static T GetItem<T>(DataRow dr)
+        {
+            Type temp = typeof(T);
+            T obj = Activator.CreateInstance<T>();
+
+            foreach (DataColumn column in dr.Table.Columns)
+            {
+                foreach (PropertyInfo pro in temp.GetProperties())
+                {
+                    if (pro.Name == column.ColumnName)
+                    {
+                        object value = null;
+                        value = dr[column.ColumnName];
+                        if (value == DBNull.Value)
+                        {
+                            value = null;
+                        }
+                        pro.SetValue( obj, value, null);
+                    }                       
+                    else
+                        continue;
+                }
+            }
+            return obj;
+        }
+
+        private static object TypeConverter<T>(PropertyInfo propertyInfo, T obj)
+       {
+            if (propertyInfo.PropertyType.Name == "Nullable`1")
+            {
+                var val = propertyInfo.GetValue(obj).ToString();
+                return val;
+            }
+            else if(propertyInfo.PropertyType.Name == "Decimal")
+            {
+                var val = decimal.Parse(propertyInfo.GetValue(obj).ToString());
+                return val;
+            }
+            else if (propertyInfo.PropertyType.Name == "Int32" || propertyInfo.PropertyType.Name == "Int16" || propertyInfo.PropertyType.Name == "Int64")
+            {
+                return int.Parse(propertyInfo.GetValue(obj).ToString());
+            }
+            else
+            {
+                return propertyInfo.GetValue(obj).ToString();
+            }
+            
         }
     }
 }

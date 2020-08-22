@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vipalamarchuk\\source\\repos\\TestSearchService\\DBSearchLib\\DBSearchLib.csproj": {}
+    "C:\\Users\\kv111\\OneDrive\\Рабочий стол\\search\\SearchService\\DBSearchLib\\DBSearchLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vipalamarchuk\\source\\repos\\TestSearchService\\DBSearchLib\\DBSearchLib.csproj": {
+    "C:\\Users\\kv111\\OneDrive\\Рабочий стол\\search\\SearchService\\DBSearchLib\\DBSearchLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vipalamarchuk\\source\\repos\\TestSearchService\\DBSearchLib\\DBSearchLib.csproj",
+        "projectUniqueName": "C:\\Users\\kv111\\OneDrive\\Рабочий стол\\search\\SearchService\\DBSearchLib\\DBSearchLib.csproj",
         "projectName": "DBSearchLib",
-        "projectPath": "C:\\Users\\vipalamarchuk\\source\\repos\\TestSearchService\\DBSearchLib\\DBSearchLib.csproj",
-        "packagesPath": "C:\\Users\\vipalamarchuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vipalamarchuk\\source\\repos\\TestSearchService\\DBSearchLib\\obj\\",
+        "projectPath": "C:\\Users\\kv111\\OneDrive\\Рабочий стол\\search\\SearchService\\DBSearchLib\\DBSearchLib.csproj",
+        "packagesPath": "C:\\Users\\kv111\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kv111\\OneDrive\\Рабочий стол\\search\\SearchService\\DBSearchLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vipalamarchuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kv111\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

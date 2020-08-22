@@ -18,3 +18,23 @@ C:\Users\vipalamarchuk\source\repos\TestSearchService\TestSearchService\obj\Debu
 C:\Users\vipalamarchuk\source\repos\TestSearchService\TestSearchService\obj\Debug\netcoreapp3.1\TestSearchService.csproj.CopyComplete
 C:\Users\vipalamarchuk\source\repos\TestSearchService\TestSearchService\obj\Debug\netcoreapp3.1\TestSearchService.dll
 C:\Users\vipalamarchuk\source\repos\TestSearchService\TestSearchService\obj\Debug\netcoreapp3.1\TestSearchService.pdb
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\TestSearchService.exe
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\TestSearchService.deps.json
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\TestSearchService.runtimeconfig.json
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\TestSearchService.runtimeconfig.dev.json
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\TestSearchService.dll
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\TestSearchService.pdb
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\DBSearchLib.dll
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\bin\Debug\netcoreapp3.1\DBSearchLib.pdb
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\obj\Debug\netcoreapp3.1\TestSearchService.csprojAssemblyReference.cache
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\obj\Debug\netcoreapp3.1\TestSearchService.AssemblyInfoInputs.cache
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\obj\Debug\netcoreapp3.1\TestSearchService.AssemblyInfo.cs
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\obj\Debug\netcoreapp3.1\TestSearchService.csproj.CopyComplete
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\obj\Debug\netcoreapp3.1\TestSearchService.dll
+C:\Users\kv111\OneDrive\Рабочий стол\search\SearchService\TestSearchService\obj\Debug\netcoreapp3.1\TestSearchService.pdb
